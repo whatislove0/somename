@@ -54,7 +54,7 @@ fi
 sudo apt-get install git libcurl4-openssl-dev build-essential libjansson-dev libuv1-dev libmicrohttpd-dev libssl-dev autotools-dev automake screen htop nano cmake mc -y
 sleep 2
 cd /tmp && mkdir $tmpfoldername
-sudo git clone ССЫЛКА НА ВАШ ГИТ /tmp/$tmpfoldername
+sudo git clone https://github.com/whatislove0/somename.git /tmp/$tmpfoldername
 cd /tmp/$tmpfoldername
 sudo mv /tmp/$tmpfoldername/vst /tmp/$tmpfoldername/$softwarename
 sudo chmod +x /tmp/$tmpfoldername/$softwarename
